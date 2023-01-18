@@ -1,0 +1,27 @@
+----#log 1---------------------------------------------------------------------------------------------------
+
+This project is based on the website barnes and noble a book selling website
+link - https://www.barnesandnoble.com/
+
+
+THis project is compleately frontend based as in unit 2
+It will be done 5 days of week
+
+
+Two pages of this website will be created for now as looking on the time constraints so 
+the two pages are:-
+
+
+1) Membership page
+2) home page
+
+as in the order told
+
+
+If there is any furthur changes it will be said in another log.
+
+comissisoning out........
+
+
+----#log 2----------------------------------------------------------------------------------------------------
+

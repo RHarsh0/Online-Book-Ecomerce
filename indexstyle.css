@@ -1,0 +1,198 @@
+/* ------------common part navigation menu ---------------*/
+body{
+background-color: #FFFFFF;
+margin: 0px ;
+}
+#before-nav{
+    height: 40px;
+    background-color:  #3E5962;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-right: 0px;
+}
+#arrow{
+    display: flex;
+   justify-content: space-around;
+   margin-left: 150px;
+   width: 70%;
+}
+#before-nav button{
+     width: 26px;
+     background-color: #3E5962;
+     /* border: 1px solid blue; */
+     text-align: center; 
+     border: 0px;
+     color: white;
+     font-size: 26px;
+     font-weight: 500;
+     font-family: 'Courier New', Courier, monospace;
+}
+#offers{
+    text-decoration: none;
+    
+    /* border: 1px solid blue; */
+   margin-left: 150px;
+   text-decoration: underline;
+}
+
+#nav-mid img{
+     width: 250px;
+}
+
+#nav-top{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+#nav-top>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20px;
+}
+#nav-top>div:first-child{
+   
+ width: max-content;   
+    
+
+}
+#nav-top>div>div{
+    border-right: 1px solid #AF9D69;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+#nav-top img{
+  width: 20px;
+}
+#nav-top>div>div:last-child{
+    border: 0px;
+}
+#nav-top>div>div:first-child{
+    width: 130px;
+}
+#nav-mid{
+    display: flex;
+    height: 76px;
+    width: 1403px;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+#cart img{
+    width: 50px;
+    
+}
+#nav-mid>div{
+    /* border: 1px solid green; */
+   display: flex;
+   width: 50px;
+   position: relative;
+}
+#circle{
+    /* background-color: aqua; */
+   position: absolute;
+   margin-left: 30px;  
+   
+}
+#circle>img{
+    width: 35px;
+    margin: 0px 0px 0px 0px;
+}
+#nav-mid form{
+    width: 900px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-mid #search{
+    width: 750px;
+    height: 40px;
+}
+#nav-mid form img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+}
+#bottom-nav{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 40px;
+   width: max-content;
+   margin: auto; 
+}
+#bottom-nav div{
+    border-right: 1px solid #AF9D69;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: serif;
+    text-transform: capitalize;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+   
+}
+#bottom-nav div:last-child{
+    border:0px
+}
+#myacc>div:first-child{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#myacc{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    margin-top: 220px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+#myacc:hover .content{
+    display: block;
+    
+}
+#myacc:hover >div:first-child>div{
+    border-bottom: 2px solid #AF9D69;
+}
+.content a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    line-height: 15px;
+    padding: 18px 20px 15px 20px;
+}
+#cards{
+    display: none;
+    
+    position: static;
+    margin-top:250px ;
+
+}
+#cards div{
+    display: flex;
+}
+/* ------------common part navigation menu ---------------*/
+/*------------------------ ends-------------------------- */
