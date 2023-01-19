@@ -196,3 +196,126 @@ margin: 0px ;
 }
 /* ------------common part navigation menu ---------------*/
 /*------------------------ ends-------------------------- */
+
+/* ---------------------banner & off--------------------- */
+#banner:hover{
+    border-top: 1px solid #3E5962 ;
+    
+}
+#banner img{
+    width: 100%;
+    height: 150;
+}
+#banner+div{
+  
+        height: 40px;
+        background-color:  #3E5962;
+        display: flex;
+        color: white;
+        align-items: center;
+        padding-right: 0px;
+    text-transform: capitalize;
+    
+}
+#banner+div>div{
+   margin: auto;
+    width: max-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
+/* --------------------------------------------end------------------------------------- */
+
+/* ---------------------------------content of home page ---------------------------------*/
+
+#posters{
+    /* border: 1px solid salmon; */
+    width: 100%;
+    height: max-content;
+    margin-top: 3px;
+}
+#content{
+    
+}
+#posters img{
+    width: 100%;
+    height: 550px;
+    position: relative;
+   
+}
+ #right{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 96%;
+}
+#left{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1%;
+}
+#content>div:nth-child(4){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#utilslide img{
+    width: 93%;
+    height: 230px;
+}
+#utilslide{
+    text-align: center;
+}
+
+#firstshelf div{
+    /* border: 1px solid rebeccapurple; */
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 50px;
+}
+#firstshelf div img{
+    width:13%
+}
+#firstshelf{
+    /* border:1px solid; */
+    position: relative;
+}
+#firstshelf #bright{
+    width: 50px;
+    height: 50px;
+position: absolute;
+margin-top: -220px;
+margin-left: 96%;
+}
+#firstshelf #bleft{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 1%;
+}
+#firstshelf h2{
+    margin-left: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+#firstshelf+div img{
+width: 1360px;
+height: 495px;
+margin-bottom: 30px;
+}
+#firstshelf+div{
+    text-align: center;
+}
