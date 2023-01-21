@@ -7,13 +7,13 @@ let direct = document.createElement("a");
 
 login.addEventListener("click",function(){
     
-    direct.href = "ecommerce.html"
+    
     arr.forEach(element => {
         if(mail.value==element.mailob && pass.value == element.passob){
             
-             return "ecommerce.html";
+             return alert("sucessful");
         }
-       
+        return alert("intruder");
     });
-    return alert("intruder");
+    
 })
